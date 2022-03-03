@@ -5,7 +5,12 @@
 #palindroom
 
 palin = input("Sisesta palindroom: ")
-print([::-1])
+pal = palin.lower()
+rev_pal = reversed(pal)
+if list(pal) == list(rev_pal):
+    print("Tekst on palindroom.")
+else:
+    print("Tekst ei ole palindroom.")
 
 #Tundide ajad
 
