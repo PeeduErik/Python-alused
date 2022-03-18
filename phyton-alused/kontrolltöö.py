@@ -50,7 +50,7 @@ else:
        print("Seal firmas ei diskrimineerita.")
 
 
-#Tekst läheb faili, aga see rikub koodi ära ja peale seda enam ei tööta.
+#Tekst läheb faili.
 
 with open("palk.txt", "a+") as file_object:
     file_object.seek(0)
